@@ -1,6 +1,6 @@
 if not _G.thingtosay then _G.thingtosay = "$flix 9999 add up clowns" end
 if not _G.shoption then _G.shoption = "largest" end
-wait(3) if not game:IsLoaded() then game.Loaded:Wait() end
+wait(1) if not game:IsLoaded() then game.Loaded:Wait() end
 
 local lp = game.Players.LocalPlayer
 repeat wait() until lp and lp.Character and lp.Character:FindFirstChild("HumanoidRootPart")
